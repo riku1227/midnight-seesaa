@@ -1,0 +1,284 @@
+/**
+* Midnight Seesaa
+* v1.0.0
+* by riku1227
+**/
+
+/*
+ * 左メニューリストの各セクション間のスペースを広げる
+ * デフォルトだと詰まっててちょっと見にくい感じがする
+ */
+.wiki-section-1 {
+    margin-top: 18px !important;
+    margin-bottom: 18px !important;
+}
+
+/*
+* ページのタイトル部分
+* 「トップページとか」
+*/
+.title {
+    border-radius: 12px !important;
+}
+
+.title>.inner {
+    margin: 8px !important;
+}
+
+.title>h2 {
+    margin: 4px !important;
+}
+
+/*
+* 「**」 のタイトル
+* カラムメニューのタイトル
+*/
+.title-1 {
+    border-radius: 12px !important;
+}
+
+.title-1>h3 {
+    margin: 4px !important;
+}
+
+/*
+* 下にあるこのページを編集するとかがある場所
+*/
+#information-box {
+    border-radius: 12px;
+}
+
+
+/****************
+ * ダークテーマ 
+****************/
+@media (prefers-color-scheme: dark) {
+
+    /** 
+    * 全ての根底バックグラウンド
+    * 上のSeesaawikiバナーが読み込まれる前とかの色
+    **/
+    .layout-2 {
+        background: #1f1f1f !important;
+    }
+
+    .layout-2-r {
+        background: #1f1f1f !important;
+    }
+
+    .layout-3 {
+        background: #1f1f1f !important;
+    }
+
+    .layout-3-r {
+        background: #1f1f1f !important;
+    }
+
+    /*
+    * wikiのコンテナ
+    * wiki名がある場所とかカラムとか
+    */
+    #wiki-container {
+        background-color: #1f1f1f !important;
+    }
+
+    /*
+    * フッター
+    */
+    #bottom_space {
+        background-color: #1b1b1b !important;
+    }
+
+    #common-footer {
+        background-color: #1b1b1b !important;
+    }
+
+    /**
+    * Wikiの上にあるナビゲーションバー 
+    **/
+
+    /** 「設定」などをホバーしたとき出てくるやつ **/
+    .nav>ul {
+        background-color: #1b1b1b !important;
+        border-color: #484848 !important;
+    }
+
+    /** 「設定」などをホバーしたとき出てくるやつをホバーしたときの色 **/
+    .nav>ul>li>a:hover {
+        background-color: #363636 !important;
+    }
+
+    /** 「マイページ」ボタン **/
+    ul#header-signup li.mypage a {
+        color: #fff !important;
+    }
+
+    /** 「新規登録」ボタン **/
+    ul#header-signup li.signup a {
+        color: #fff !important;
+    }
+
+
+    /*
+    * wikiのユーザーエリア
+    * 内容とかここ
+    */
+    div.user-area {
+        background: #1f1f1f !important;
+    }
+
+    /* 基本のテキスト */
+    span {
+        color: #e0e0e0;
+    }
+
+    /* 基本のテキスト2 */
+    div {
+        color: #e0e0e0 !important;
+    }
+
+    /* 基本のテキスト3 */
+    label {
+        color: #e0e0e0 !important;
+    }
+
+    /* 基本のリンクテキスト */
+    a {
+        color: #5eb1ef !important;
+    }
+
+    /* リンク先のページが未作成の場合になる背景黄色の文字 */
+    span[style="color:gray;background-color:yellow"] {
+        color: #1d1d1d !important;
+        background-color: #ffef5f !important;
+    }
+
+    th {
+        background-color: #1f1f1f !important;
+    }
+
+    td {
+        background-color: #2e2e2e !important;
+    }
+
+    /*
+    * ページのタイトル部分
+    * 「トップページとか」
+    */
+    .title {
+        background: #363636 !important;
+    }
+
+    .title>.inner>h2 {
+        color: #e0e0e0 !important;
+    }
+
+    /*
+    * 「**」 のタイトル
+    * カラムメニューのタイトル
+    */
+    .title-1 {
+        background: #2e2e2e !important;
+    }
+
+    .title-1>h3 {
+        color: #e0e0e0 !important;
+    }
+
+    /*
+    * 下にあるこのページを編集するとかがある場所
+    */
+    #information-box {
+        background: #2e2e2e !important;
+    }
+
+    textarea {
+        background-color: #1b1b1b !important;
+        color: #fff !important;
+    }
+
+    input {
+        background-color: #1b1b1b !important;
+        color: #fff !important;
+    }
+
+    /**** メンバータブ ****/
+    /* 参加ボタンがあるエリア */
+    .member-help-inner {
+        background-color: #1b1b1b !important;
+    }
+
+    .member-entry-sub>a {
+        background-color: #424242 !important;
+        border: none !important;
+    }
+
+    /**** 編集画面 *****/
+    #edit-area {
+        background-color: #1f1f1f !important;
+    }
+
+    div[class="edit-line-inner color-box clearfix"] {
+        background-color: #1f1f1f !important;
+    }
+
+    .screen-navigation {
+        background: #1f1f1f !important;
+    }
+
+    div.edit-line-3 div.color-box {
+        background: #1f1f1f !important;
+    }
+
+    .tag-inactive {
+        color: #5eb1ef !important;
+    }
+
+    .tag-active {
+        background-color: #5eb1ef !important;
+    }
+
+    .description {
+        background-color: #1f1f1f !important;
+    }
+
+    .itemsearch {
+        background: #2e2e2e !important;
+    }
+
+    .itemsearch_body {
+        background: #202020 !important;
+    }
+
+    /**** テキストサイズなどのサンプル ****/
+    .example {
+        background: #1f1f1f !important;
+    }
+
+    /**** 吹き出し ****/
+    .balloon-frame-inner {
+        background: #1f1f1f !important;
+    }
+
+    .balloon-setting {
+        background: #1f1f1f !important;
+    }
+
+    .balloon-setting-inner {
+        background: #1f1f1f !important;
+    }
+
+    /**** コメント ****/
+    .comment-reply {
+        background-color: #131313 !important;
+    }
+
+    div#comment-box div.body div.form-box {
+        background-color: #1f1f1f !important;
+    }
+}
+
+/**
+* Midnight Seesaa
+* ここまで
+**/
