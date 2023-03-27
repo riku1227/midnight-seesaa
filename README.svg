@@ -1,0 +1,46 @@
+<svg fill="none" viewBox="0 0 600 100" width="600" height="100" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        h1 {
+            color: #24292f
+        }
+
+        h3 {
+            color: #24292f
+        }
+        
+        @media (prefers-color-scheme: dark) {
+          h1 {
+            color: #d7dade;
+          }
+
+          h3 {
+            color: #d7dade;
+          }
+        }
+        @keyframes rotate  {
+            from {
+                transform: rotateY(0deg);
+            }
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .rotate {
+            animation-name: rotate;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            display: inline-block;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+      </style>
+
+      <h1 align="center" style="margin-top: 8px; margin-bottom: 0px;"><div class="rotate">🌙</div> Midnight Seesaa <div class="rotate">🌙</div></h1>
+      <h3 align="center" style="margin: 0px;">~ Seesaa wikiにダークテーマを追加するCSS ~</h3>
+    </div>
+  </foreignObject>
+</svg>
